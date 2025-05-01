@@ -1,0 +1,71 @@
+:root{
+    --primary-color: #dfdfe2;
+    --secondary-color: #ffffff;
+    --app-background-color: #4d4d62;
+    --background-color: #1b1b32;
+    --foreground-color: #3b3b4f;
+    --highlight-color: #f1be32;
+}
+body{
+  background-color: var(--background-color);
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Verdana", sans-serif;
+}
+img{
+  height: 30px;
+  padding: 2em 0;
+}
+h1{
+  color: var(--primary-color);
+  width: 60%;
+  text-align: center;
+
+}
+form{
+  background-color: var(--app-background-color);
+  width: 50%;
+  border: 3px solid var(--secondary-color);
+  min-width: 23em;
+}
+fieldset{
+  border: 0;
+  color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+label{
+  height: 100%;
+  font-size: 1.5em;
+}
+input{
+  height: 1em;
+  padding: 1em;
+  margin: 1em;
+  color: var(--secondary-color);
+  width: 13em;
+  background-color: var(--foreground-color);
+}
+button{
+  font-weight: 600;
+  width: 20em;
+  padding: 1em;
+  background-color: var(--highlight-color)
+}
+.hidden{
+  display:none;
+}
+div.output{
+  width: 50%;
+  height: 3em;
+  background-color: var(--app-background-color);
+  color: var(--secondary-color);
+  font-size: 1.5em;
+}
